@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[CustomerModule]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-05T19:56:38 IST" name="Default suite" finished-at="2023-10-05T19:57:12 IST" duration-ms="34191">
+    <groups>
+    </groups>
+    <test started-at="2023-10-05T19:56:38 IST" name="Default test" finished-at="2023-10-05T19:57:12 IST" duration-ms="34191">
+      <class name="com.projectactitime.testscript.CustomerModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.projectactitime.testscript.CustomerModule@35aea049]" started-at="2023-10-05T19:56:38 IST" name="openBrowser" finished-at="2023-10-05T19:56:42 IST" duration-ms="4152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.projectactitime.testscript.CustomerModule@35aea049]" started-at="2023-10-05T19:56:42 IST" name="login" finished-at="2023-10-05T19:57:01 IST" duration-ms="19146" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="customer()[pri:0, instance:com.projectactitime.testscript.CustomerModule@35aea049]" started-at="2023-10-05T19:57:01 IST" name="customer" finished-at="2023-10-05T19:57:12 IST" duration-ms="10822" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CustomerModule]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.projectactitime.testscript.CustomerModule@35aea049]" started-at="2023-10-05T19:57:12 IST" name="logout" finished-at="2023-10-05T19:57:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.projectactitime.testscript.CustomerModule@35aea049]" started-at="2023-10-05T19:57:12 IST" name="closeBrowser" finished-at="2023-10-05T19:57:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.projectactitime.testscript.CustomerModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
